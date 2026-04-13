@@ -1,0 +1,15 @@
+@@ -1,8 +1,10 @@
+ function example() {
+-  const oldVariable = 'old value';
+-  console.log('This will be removed');
+-  return oldVariable;
++  const newVariable = 'new value';
++  console.log('This is new code');
++  console.log('Another new line');
++  return newVariable;
+ }
+
+ function anotherFunction() {
+   console.log('context line');
++  console.log('added line');
+ }

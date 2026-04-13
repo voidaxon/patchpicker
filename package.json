@@ -1,0 +1,72 @@
+{
+  "name": "patch-picker",
+  "displayName": "Patch Picker",
+  "description": "Automatically removes +/- symbols when copying code from diff/patch files. Smart group detection for efficient code review workflows.",
+  "version": "1.0.0",
+  "publisher": "patch-picker",
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/patch-picker"
+  },
+  "keywords": [
+    "diff",
+    "patch",
+    "git",
+    "code review",
+    "copy",
+    "clipboard"
+  ],
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onLanguage:diff"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "patchPicker.copyWithoutSymbols",
+        "title": "Copy Without Diff Symbols"
+      }
+    ],
+    "keybindings": [
+      {
+        "key": "ctrl+c",
+        "mac": "cmd+c",
+        "command": "patchPicker.copyWithoutSymbols",
+        "when": "editorTextFocus && resourceExtname =~ /\\.(diff|patch|rej)$/"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "patchPicker.copyWithoutSymbols",
+          "when": "resourceExtname =~ /\\.(diff|patch|rej)$/",
+          "group": "9_cutcopypaste@2"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile",
+    "lint": "eslint src --ext ts",
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "@types/vscode": "^1.75.0",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^8.0.0",
+    "typescript": "^5.0.0",
+    "@vscode/vsce": "^2.19.0"
+  }
+}
