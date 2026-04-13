@@ -7,7 +7,7 @@
   "icon": "icon.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/patch-picker"
+    "url": "https://github.com/VoidAxon/PatchPicker"
   },
   "keywords": [
     "diff",
