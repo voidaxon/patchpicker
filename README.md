@@ -2,7 +2,7 @@
 
 > **Smart copy for diff files** - Automatically removes `+`/`-` symbols when copying code from patch files.
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/yourusername/patch-picker)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/VoidAxon/PatchPicker)
 [![VS Code](https://img.shields.io/badge/VS%20Code-1.75.0+-007ACC.svg)](https://code.visualstudio.com/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
@@ -111,7 +111,7 @@ After copying, the status bar shows:
 
 Found a bug or have a feature request?
 
-1. Check existing issues on [GitHub Issues](https://github.com/yourusername/patch-picker/issues)
+1. Check existing issues on [GitHub Issues](https://github.com/VoidAxon/PatchPicker/issues)
 2. Open a new issue with details
 3. Pull requests are welcome!
 
@@ -133,7 +133,7 @@ MIT License - see [LICENSE](LICENSE) file for details
 ## 🌟 Show Your Support
 
 If you find this extension helpful, please:
-- ⭐ Star the [repository](https://github.com/yourusername/patch-picker)
+- ⭐ Star the [repository](https://github.com/VoidAxon/PatchPicker)
 - 📝 Leave a review on the [marketplace](https://marketplace.visualstudio.com/)
 - 🐦 Share with your team!
 
