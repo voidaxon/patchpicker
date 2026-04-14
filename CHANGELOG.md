@@ -2,6 +2,12 @@
 
 All notable changes to the "Patch Picker" extension will be documented in this file.
 
+## [1.0.1] - 2026-04-14
+
+### Fixed
+- Updated GitHub repository links in README
+- Fixed placeholder URLs to actual repository
+
 ## [1.0.0] - 2026-04-13
 
 ### Added

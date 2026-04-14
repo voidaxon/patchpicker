@@ -2,7 +2,7 @@
   "name": "patch-picker",
   "displayName": "Patch Picker",
   "description": "Automatically removes +/- symbols when copying code from diff/patch files. Smart group detection for efficient code review workflows.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "voidaxon",
   "icon": "icon.png",
   "repository": {

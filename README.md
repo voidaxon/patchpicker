@@ -2,7 +2,7 @@
 
 > **Smart copy for diff files** - Automatically removes `+`/`-` symbols when copying code from patch files.
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/VoidAxon/PatchPicker)
+[![Version](https://img.shields.io/badge/version-1.0.1-blue.svg)](https://github.com/VoidAxon/PatchPicker)
 [![VS Code](https://img.shields.io/badge/VS%20Code-1.75.0+-007ACC.svg)](https://code.visualstudio.com/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
